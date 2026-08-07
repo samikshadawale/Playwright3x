@@ -1,0 +1,11 @@
+let a=10;
+consloe.log(a);
+
+for(let a=0; a<1000; a++){
+    consloe.log(a);
+    badCodeFn();
+}
+
+function badCodeFn(){
+    consloe.log("This is a bad code function");
+}
